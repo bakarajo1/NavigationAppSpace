@@ -35,11 +35,11 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-            binding.buttonToSecond.setOnClickListener {
-
-                findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
-
-            }
+//            binding.buttonToSecond.setOnClickListener {
+//
+//                findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
+//
+//            }
 
     }
 
